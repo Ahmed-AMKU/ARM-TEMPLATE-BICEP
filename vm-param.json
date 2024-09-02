@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "AMKU1"
+        },
+        "adminPassword": {
+            "value": "Thinkpad#12345"
+      
+        },
+        "OSVersion": {
+            "value": "2019-datacenter-gensecond"     
+
+        },
+        "vmSize": {
+            "value": "Standard_B1s"
+
+        },
+        "publicIpName": {
+            "value": "AHMED-PublicIP"
+        },
+        "location": {
+            "value": "EASTUS2"
+           
+        },
+        "vmName": {
+            "value": "AMKU-VMtoday"
+
+        }
+    }
+}
